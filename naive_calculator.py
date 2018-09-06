@@ -9,7 +9,7 @@ from keras.layers import Dense
 
 data_path   = "./datasets/calculator_dataset.csv"
 myDelimiter = ";"
-outModel = "my_naive_calculator.h5"
+outModel = "./models/my_naive_calculator.h5"
 
 train_frac = 0.75
 n_epochs = 5
